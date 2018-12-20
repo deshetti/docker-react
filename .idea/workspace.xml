@@ -39,7 +39,7 @@
         <counts>
           <entry key="Dockerfile" value="229" />
           <entry key="dev" value="122" />
-          <entry key="js" value="68" />
+          <entry key="js" value="89" />
           <entry key="prod" value="78" />
           <entry key="yml" value="973" />
         </counts>
@@ -47,7 +47,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="229" />
-          <entry key="JavaScript" value="68" />
+          <entry key="JavaScript" value="89" />
           <entry key="PLAIN_TEXT" value="200" />
           <entry key="YAML" value="973" />
         </counts>
@@ -124,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -226,7 +226,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545334629869" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545334637431" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -297,12 +297,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545283686395</updated>
-      <workItem from="1545283688160" duration="7674000" />
+      <workItem from="1545283688160" duration="8078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7674000" />
+    <option name="totallyTimeSpent" value="8078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -398,7 +398,7 @@
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
