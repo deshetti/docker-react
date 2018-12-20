@@ -1,0 +1,16 @@
+# need super user permissions to execute the build
+sudo: required
+
+# need a copy of docker ready to go
+services:
+  - docker
+
+# series of steps that needs to occur before deploying the project or running the tests
+before_install:
+  # tag the image while building
+  - docker build -t deshetti/docker-react -f Dockerfile.dev .
+
+# series of commands for the tests to be executed
+script:
+  # command to run the test and exit. -- --coverage shows the test results and exit
+  - docker run deshetti/docker-react npm run test -- --coverage
