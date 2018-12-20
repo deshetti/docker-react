@@ -14,3 +14,17 @@ before_install:
 script:
   # command to run the test and exit. -- --coverage shows the test results and exit
   - docker run deshetti/docker-react npm run test -- --coverage
+
+# deploy it on AWS
+deploy:
+  provider: elasticbeanstalk
+  region: "ap-south-1"
+  app: "docker-react"
+  env: "DockerReact-env"
+  bucket_name: "elasticbeanstalk-ap-south-1-663552934898"
+  bucket_path: "docker-react"
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: "$AWS_SECRET_KEY"
